@@ -1,0 +1,328 @@
+Test Case ID,Precondition,Test Condition,Test Case Steps,Test Data,Expected Result,Status
+TC_Cash on Delivery_01,"open the browser
+enter the url
+signup with user credentials","Verify user is able to Buy a item
+ using Cash on Delivery.","1. Enter the url.
+2. Select the product.
+3.Click on Buy Now button.
+4. Select the address.
+5. Click on Deliver To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Continue.
+9. Click on Place Order.","https://www.meesho.com/
+",user should able to Buy a item using Cash on Delivery.,Pass.
+TC_Cash on Delivery_02,"open the browser
+enter the url
+signup with user credentials","Verify user is able to Select the Pay Cash on delivery by clicking on Cash on Delivery drop down
+ button.","1. Enter the url.
+2. Select the product.
+3.Click on Buy Now button.
+4. Select the address.
+5. Click on Deliver To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Pay cash on delivery.
+9. Click on Continue.
+10. Click on Place Order.","https://www.meesho.com/
+","user should able to Select the Pay Cash on delivery by clicking on Cash on Delivery drop down
+ button.",Pass.
+TC_Cash on Delivery_03,"open the browser
+enter the url
+signup with user credentials",Verify user is not able to Buy a Shirt without Selecting Size.,"1. Enter the url.
+2. Sarch for the Shirt.
+3. Select the Shirt.
+4. Select the Size. 
+5.Click on Buy Now button.
+6. Select the address.
+7. Click on Deliver To This Address.
+8. Select the Payment method.
+9. Click on COD.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com/
+",user should not able to Buy a Shirt without Selecting Size.,Pass.
+TC_Cash on Delivery_04,"open the browser
+enter the url
+signup with user credentials",Verify user is not able to Buy a item if there is no item in Add to card.,"1. Enter the url.
+2. Search for the item.
+3. Click on Add Cart.
+4. Click on Continue. 
+5. Select the address.
+6. Click on Delivery To This Address.
+7. Select the Payment method.
+8. Click on COD.
+9. Click on Continue.
+10. Click on Place Order.","https://www.meesho.com/
+", user should not able to Buy a item if there is no item in Add to card.,Pass.
+TC_Cash on Delivery_05,"open the browser
+enter the url
+signup with user credentials",Verify user is able to view Continue Button.,"1. Enter the url.
+2. Search for the item.
+3. Click on Add Cart.
+4. Click on Continue. 
+5. Select the address.
+6. Click on Delivery To This Address.
+7. Select the Payment method.
+8. Click on COD.
+9. Click on Continue.
+10. Click on Place Order.","https://www.meesho.com/
+",user should able to view Continue Button. ,Pass.
+TC_Cash on Delivery_06,"open the browser
+enter the url
+signup with user credentials",Verify user is not able to view Continue Button. ,"1. Enter the url.
+2. Search for the item.
+3. Click on Add Cart.
+4. Click on Continue. 
+5. Select the address.
+6. Click on Delivery To This Address.
+7. Select the Payment method.
+8. Click on COD.
+9. Click on Continue.
+10. Click on Place Order.","https://www.meesho.com/
+",user should not able to view Continue Button. ,Pass.
+TC_Cash on Delivery_07,"open the browser
+enter the url
+signup with user credentials",Verify user is able to click on Continue Button.,"1. Enter the url.
+2. Search for the item.
+3. Click on Add Cart.
+4. Click on Continue. 
+5. Select the address.
+6. Click on Delivery To This Address.
+7. Select the Payment method.
+8. Click on COD.
+9. Click on Continue.
+10. Click on Place Order.","https://www.meesho.com/
+",user should able to click on Continue Button.,Pass.
+TC_Cash on Delivery_08,"open the browser
+enter the url
+signup with user credentials",Verify  user is able to Navigate to Summary page by click on Continue Button.,"1. Enter the url.
+2. Search for the item.
+3. Click on Add Cart.
+4. Click on Continue. 
+5. Select the address.
+6. Click on Delivery To This Address.
+7. Select the Payment method.
+8. Click on COD.
+9. Click on Continue.
+10. Click on Place Order.","https://www.meesho.com/
+",user should able to Navigate to Summary page by click on Continue Button.,Pass.
+TC_Reselling the Order_01,"open the browser
+enter the url
+signup with user credentials","Verify user is able to Buy a item
+ using Reselling the order.","1. Enter the url.
+2. Search for the item.
+3. Click on Buy Now. 
+4. Select the address.
+5. Click on Delivery To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Yes.
+9. Enter the amount in your Margin text Field.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com/
+1. Your Margin: 444.",user should able to Buy a item using Reselling the order.,Pass.
+TC_Reselling the Order_02,"open the browser
+enter the url
+signup with user credentials","Verify user able to view ""No""
+ and ""Yes"" radio Buttons in Reselling the order.","1. Enter the url.
+2. Search for the item.
+3. Click on Buy Now. 
+4. Select the address.
+5. Click on Delivery To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Yes.","https://www.meesho.com/
+",user should able to view "No" and "Yes" radio Buttons in Reselling the order.,Pass.
+TC_Reselling the Order_03,"open the browser
+enter the url
+signup with user credentials","Verify user able to Select the
+ ""No"" and ""Yes"" radio Buttons in Reselling the order.","1. open the Meesho app.
+2. Search for the item.
+3. Click on Buy Now. 
+4. Select the address.
+5. Click on Delivery To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Yes.","https://www.meesho.com/
+",user should able to Select the "No" and "Yes" radio Buttons in Reselling the order.,Pass.
+TC_Reselling the Order_04,"open the browser
+enter the url
+signup with user credentials","Verify user able to enter the 
+Amount in your margin Text filed","1. Enter the url.
+2. Search for the item.
+3. Click on Buy Now. 
+4. Select the address.
+5. Click on Delivery To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Yes.
+9. Enter the amount in your Margin text Field.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com/
+1. Your Margin: 424.",user should able to enter the Amount in your margin Text filed,Pass.
+TC_Reselling the Order_05,"open the browser
+enter the url
+signup with user credentials","Verify user should not able to 
+enter more then 8 numbers as a amount in Your Margin text filed.","1. Enter the url.
+2. Search for the item.
+3. Click on Buy Now. 
+4. Select the address.
+5. Click on Delivery To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Yes.
+9. Enter the amount in your Margin text Field.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com
+1. Your Margin: 1234567897.","user should not able to 
+enter more then 8 numbers as a amount in Your Margin text filed.",Pass.
+TC_Reselling the Order_06,"open the browser
+enter the url
+signup with user credentials",Verify user able to view By default  "No"  radio button is selected,"1. Enter the url.
+2. Search for the item.
+3. Click on Buy Now. 
+4. Select the address.
+5. Click on Delivery To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Yes.
+9. Enter the amount in your Margin text Field.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com/
+",user should able to view By default  "No"  radio button is selected,Pass.
+TC_Reselling the Order_07,"open the browser
+enter the url
+signup with user credentials","Verify user should not able to 
+enter double of order  total amount as a amount in Your Margin text filed.","1. Enter the url.
+2. Search for the item.
+3. Click on Buy Now. 
+4. Select the address.
+5. Click on Delivery To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Yes.
+9. Enter the amount in your Margin text Field.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com/
+1. Your Margin: 424.","user should not able to 
+enter double of order  total amount as a amount in Your Margin text filed.",Pass.
+TC_Reselling the Order_08,"open the browser
+enter the url
+signup with user credentials",Verify user should not able to enter the Alphabetsin Your Margin text filed. ,"1. Enter the url.
+2. Search for the item.
+3. Click on Buy Now. 
+4. Select the address.
+5. Click on Delivery To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Yes.
+9. Enter the amount in your Margin text Field.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com/
+1. Your Margin: abcd.",user should not able to enter the Alphabetsin Your Margin text filed. ,Pass.
+TC_Reselling the Order_09,"open the browser
+enter the url
+signup with user credentials",Verify user should not able to enter the Special Characters in Your Margin text filed. ,"1. Enter the url.
+2. Search for the item.
+3. Click on Buy Now. 
+4. Select the address.
+5. Click on Delivery To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Yes.
+9. Enter the amount in your Margin text Field.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com/
+2. Your Margin: @#$%.",user should not able to enter the Special Characters in Your Margin text filed.,Pass.
+TC_Buy Now_01,"open the browser
+enter the url
+signup with user credentials","Verify user is able to Buy 
+product.","1. Enter the url.
+2. Select the product.
+3.Click on Buy Now button.
+4. Select the address.
+5. Click on Deliver To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Continue.
+9. Click on Place Order.","https://www.meesho.com/
+",user should able to Buy product.,Pass.
+TC_Buy Now_02,"open the browser
+enter the url
+signup with user credentials"," Verify user is able to Buy a 
+Shirt by Selecting Size.","1. Enter the url.
+2. Sarch for the Shirt.
+3. Select the Shirt.
+4. Select the Size. 
+5.Click on Buy Now button.
+6. Select the address.
+7. Click on Deliver To This Address.
+8. Select the Payment method.
+9. Click on COD.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com/
+",user should able to Buy a Shirt by Selecting Size.,Pass.
+TC_Buy Now_03,"open the browser
+enter the url
+signup with user credentials","Verify user is able to Buy a 
+item by Add to Cart.","1. Enter the url.
+2. Search for the item.
+3. Click on Add Cart.
+4. Click on Continue. 
+5. Select the address.
+6. Click on Delivery To This Address.
+7. Select the Payment method.
+8. Click on COD.
+9. Click on Continue.
+10. Click on Place Order.","https://www.meesho.com/
+",user should able to Buy a item by Add to Cart.,Pass.
+TC_Buy Now_04,"open the browser
+enter the url
+signup with user credentials",Verify user able to view the Buy Now Button.,"1. Enter the url.
+2. Select the product.
+3.Click on Buy Now button.
+4. Select the address.
+5. Click on Deliver To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Continue.
+9. Click on Place Order.","https://www.meesho.com/
+",user able to view the Buy Now Button.,Pass.
+TC_Buy Now_05,"open the browser
+enter the url
+signup with user credentials",Verify user not able to view the Buy Now Button.,"1. Enter the url.
+2. Select the product.
+3.Click on Buy Now button.
+4. Select the address.
+5. Click on Deliver To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Continue.
+9. Click on Place Order.","https://www.meesho.com/
+",user not able to view the Buy Now Button.,Pass.
+TC_Buy Now_06,"open the browser
+enter the url
+signup with user credentials",Verify  user is able to Navigate to Address page by click on Buy Now Button.,"1. Enter the url.
+2. Select the product.
+3.Click on Buy Now button.
+4. Select the address.
+5. Click on Deliver To This Address.
+6. Select the Payment method.
+7. Click on COD.
+8. Click on Continue.
+9. Click on Place Order.","https://www.meesho.com/
+",user should able to Navigate to Address page by click on Buy Now Button,Pass.
+TC_Buy Now_07,"open the browser
+enter the url
+signup with user credentials",Verify user is not able to Buy a Shirt without Selecting Size.,"1. Enter the url.
+2. Sarch for the Shirt.
+3. Select the Shirt.
+4. Select the Size. 
+5.Click on Buy Now button.
+6. Select the address.
+7. Click on Deliver To This Address.
+8. Select the Payment method.
+9. Click on COD.
+10. Click on Continue.
+11. Click on Place Order.","https://www.meesho.com/
+",user should  not able to Buy a Shirt without Selecting Size.,Pass.
